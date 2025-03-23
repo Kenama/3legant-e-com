@@ -1,6 +1,5 @@
-import "./src/assets/js/index.js"
-import "./product-info.js"
-import "./cart.js"
-function toggleHide(id) {
+// Functions
+
+export function toggleHide(id) {
   document.getElementById(id).style.display = "none";
 }
