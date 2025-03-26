@@ -39,6 +39,12 @@
 @import url(/src/assets/css/components/cart-components/cart.css);
 @import url(/src/assets/css/components/cart-components/summary.css);
 
+/* check out page partials */
+@import url(/src/assets/css/components/check-out-components/check-out-header.css);
+@import url(/src/assets/css/components/check-out-components/check-out-form.css);
+@import url(/src/assets/css/components/check-out-components/check-out-summary.css);
+
+
 /* Varriables */
 /* ---------------------------------------------------------- */
 
