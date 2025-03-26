@@ -47,13 +47,13 @@
             <div class="frame-74 inactive">
               <span>1</span>
             </div>
-            <span class="step-label">Shopping cart</span>
+            <span class="step-label inactive">Shopping cart</span>
           </div>
           <div class="frame-76">
             <div class="frame-74 active">
               <span>2</span>
             </div>
-            <span class="step-label inactive">Checkout details</span>
+            <span class="step-label">Checkout details</span>
           </div>
           <div class="frame-76">
             <div class="frame-74 inactive">
@@ -65,78 +65,81 @@
       </div>
 
     <!-- 📬 Forms -->
-    <main class="checkout-content">
-      <!-- Contact Info -->
-      <form class="contact-form">
-        <h2>Contact Information</h2>
-        <div class="name-fields">
-          <div>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="John" required />
-          </div>
-          <div>
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" placeholder="Doe" required />
+    <div class="checkout-content">
+
+        <!-- Contact Info -->
+        <div class="form-section contact-form">
+          <h2>Contact Information</h2>
+          <div class="name-fields">
+            <div>
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="Name" />
+            </div>
+            <div>
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Last Name" />
+            </div>
           </div>
         </div>
-        <div>
+      
+        <!-- Shipping Address -->
+        <div class="form-section shipping-form">
+          <h2>Shipping Address</h2>
           <label for="email">Email Address</label>
-          <input type="email" id="email" placeholder="john@example.com" required />
-        </div>
-        <div>
+          <input type="email" id="email" placeholder="example@gmail.com" />
+      
+          <label for="street">Street Address</label>
+          <input type="text" id="street" placeholder="Street Address" />
+      
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" placeholder="+1234567890" required />
+          <input type="tel" id="phone" placeholder="+49 1522 343333" />
+      
+          <label for="country">Country</label>
+          <input type="text" id="country" placeholder="Country" />
         </div>
-      </form>
-
-      <!-- Shipping -->
-      <form class="shipping-form">
-        <h2>Shipping Address</h2>
-        <input type="text" placeholder="Street Address" required />
-        <input type="text" placeholder="Country" required />
-        <input type="text" placeholder="City" required />
-        <div class="row">
-          <input type="text" placeholder="State" required />
-          <input type="text" placeholder="Zip Code" required />
+      
+        <!-- Payment Method -->
+        <div class="form-section payment-form">
+          <h2>Payment Method</h2>
+      
+          <div class="radio-group">
+            <label><input type="radio" name="payment" checked /> Credit Card</label>
+            <label><input type="radio" name="payment" /> PayPal</label>
+          </div>
+      
+          <label for="city">City</label>
+          <input type="text" id="city" placeholder="Town/City" />
+      
+          <div class="row">
+            <input type="text" placeholder="Card Number" />
+            <input type="text" placeholder="MM/YY" />
+          </div>
+      
+          <div class="row">
+            <input type="text" placeholder="State" />
+            <input type="text" placeholder="Zip Code" />
+          </div>
+      
+          <input type="text" placeholder="CVC" />
         </div>
-        <label>
-          <input type="checkbox" />
-          Use a different billing address (optional)
-        </label>
-      </form>
-
-      <!-- Payment -->
-      <form class="payment-form">
-        <h2>Payment Method</h2>
-        <div class="radio-group">
-          <label><input type="radio" name="payment" checked /> Credit Card</label>
-          <label><input type="radio" name="payment" /> PayPal</label>
+      
+        <!-- Order Summary -->
+        <div class="check-out-summary">
+          <h2>Order Summary</h2>
+          <div class="check-out-summary-item">
+            <span>Subtotal</span><span>$87.99</span>
+          </div>
+          <div class="check-out-summary-item">
+            <span>Shipping</span><span>$0.00</span>
+          </div>
+          <div class="check-out-summary-total">
+            <span>Total</span><strong>$87.99</strong>
+          </div>
         </div>
-        <input type="text" placeholder="Card Number" required />
-        <div class="row">
-          <input type="text" placeholder="MM/YY" required />
-          <input type="text" placeholder="CVC" required />
-        </div>
-      </form>
-
-      <!-- Order Summary -->
-      <aside class="check-out-summary">
-        <h2>Order Summary</h2>
-        <div class="check-out-summary-item">
-          <span>Subtotal</span>
-          <span>$87.99</span>
-        </div>
-        <div class="check-out-summary-item">
-          <span>Shipping</span>
-          <span>$0.00</span>
-        </div>
-        <div class="check-out-summary-total">
-          <strong>Total</strong>
-          <strong>$87.99</strong>
-        </div>
-        <button type="submit" class="check-out-btn">Place Order</button>
-      </aside>
-    </main>
+      
+        <button class="check-out-btn">Place Order</button>
+      
+      </div>      
     <!-- Footer -->
     <footer>
         <!-- Logo -->
