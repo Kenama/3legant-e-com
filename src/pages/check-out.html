@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3legant | Checkout</title>
+  <link rel="stylesheet" href="/src/assets/css/base/styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Notification bar -->
+    <div class="notification-bar">
+        <img src="/src/assets/img/icon-discount.svg" alt="" />
+        <span>30% off storewide — Limited time!</span>
+        <button class="button-close"></button>
+      </div>
+      <!-- Header -->
+      <div class="header">
+        <!-- Left -->
+        <div class="left">
+          <!-- Burger menu -->
+          <button class="burger-menu">
+            <img src="/src/assets/img/icon-burger-menu.svg" alt="" />
+          </button>
+          <!-- Logo -->
+          <a href="/src/index.html" class="logo"
+            >3legant<span class="highlight">.</span></a
+          >
+        </div>
+        <!-- Shopping cart -->
+        <a href="" class="shopping-cart-ico">
+          <img src="/src/assets/img/icon-shopping-cart.svg" alt="" />
+          <span class="counter">2</span>
+        </a>
+      </div>
+    <!-- check-out header -->
+    <div class="check-out-header">
+        <div class="back-btn">
+          <img src="/src/assets/img/icon-simple-arr.svg" alt="" />
+          <p>back</p>
+        </div>
+        <div class="page-name">
+          <h2>Cart</h2>
+        </div>
+        <div class="process">
+          <div class="frame-76">
+            <div class="frame-74 inactive">
+              <span>1</span>
+            </div>
+            <span class="step-label">Shopping cart</span>
+          </div>
+          <div class="frame-76">
+            <div class="frame-74 active">
+              <span>2</span>
+            </div>
+            <span class="step-label inactive">Checkout details</span>
+          </div>
+          <div class="frame-76">
+            <div class="frame-74 inactive">
+              <span>3</span>
+            </div>
+            <span class="step-label inactive">Order complete</span>
+          </div>
+        </div>
+      </div>
+
+    <!-- 📬 Forms -->
+    <main class="checkout-content">
+      <!-- Contact Info -->
+      <form class="contact-form">
+        <h2>Contact Information</h2>
+        <div class="name-fields">
+          <div>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="John" required />
+          </div>
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Doe" required />
+          </div>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="john@example.com" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+1234567890" required />
+        </div>
+      </form>
+
+      <!-- Shipping -->
+      <form class="shipping-form">
+        <h2>Shipping Address</h2>
+        <input type="text" placeholder="Street Address" required />
+        <input type="text" placeholder="Country" required />
+        <input type="text" placeholder="City" required />
+        <div class="row">
+          <input type="text" placeholder="State" required />
+          <input type="text" placeholder="Zip Code" required />
+        </div>
+        <label>
+          <input type="checkbox" />
+          Use a different billing address (optional)
+        </label>
+      </form>
+
+      <!-- Payment -->
+      <form class="payment-form">
+        <h2>Payment Method</h2>
+        <div class="radio-group">
+          <label><input type="radio" name="payment" checked /> Credit Card</label>
+          <label><input type="radio" name="payment" /> PayPal</label>
+        </div>
+        <input type="text" placeholder="Card Number" required />
+        <div class="row">
+          <input type="text" placeholder="MM/YY" required />
+          <input type="text" placeholder="CVC" required />
+        </div>
+      </form>
+
+      <!-- Order Summary -->
+      <aside class="check-out-summary">
+        <h2>Order Summary</h2>
+        <div class="check-out-summary-item">
+          <span>Subtotal</span>
+          <span>$87.99</span>
+        </div>
+        <div class="check-out-summary-item">
+          <span>Shipping</span>
+          <span>$0.00</span>
+        </div>
+        <div class="check-out-summary-total">
+          <strong>Total</strong>
+          <strong>$87.99</strong>
+        </div>
+        <button type="submit" class="check-out-btn">Place Order</button>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <!-- Logo -->
+        <div class="logo-block">
+          <a href="/src/index.html" class="logo"
+            >3legant<span class="highlight">.</span></a
+          >
+          <!-- Devider -->
+          <hr />
+          <!-- Slogan -->
+          <p>Gift & Decoration Store</p>
+        </div>
+        <!-- Nav -->
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a> us</li>
+          </ul>
+        </nav>
+        <!-- Bottom -->
+        <div class="bottom">
+          <!-- Social media -->
+          <div class="social-media">
+            <!-- Instagram -->
+            <a href=""><img src="/src/assets/img/icon-insta.svg" alt="" /></a>
+            <!-- Facebook -->
+            <a href=""><img src="/src/assets/img/icon-fb.svg" alt="" /></a>
+            <!-- Youtube -->
+            <a href=""><img src="/src/assets/img/icon-yt.svg" alt="" /></a>
+          </div>
+          <!-- Info -->
+          <div class="info">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+          </div>
+          <p class="copyright">Copyright © 2023 3legant. All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
