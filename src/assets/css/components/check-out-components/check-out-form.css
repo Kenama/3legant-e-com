@@ -1,0 +1,142 @@
+.checkout-content {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 32px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}
+
+/* ========== Section Container ========== */
+.form-section {
+    border: 1px solid #E5E7EB;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    background: white;
+}
+
+/* ========== Headings ========== */
+.form-section h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+/* ========== Labels ========== */
+.form-section label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+/* ========== Inputs ========== */
+.form-section input,
+.form-section select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* ========== Two-Column Layout ========== */
+.row {
+    display: flex;
+    gap: 16px;
+}
+
+.row > div {
+    flex: 1;
+}
+
+/* ========== Radio Button Group ========== */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Checked style */
+.radio-option input[type="radio"]:checked + span {
+    font-weight: 600;
+}
+
+/* ========== Checkbox ========== */
+.form-section input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+/* ========== Small print ========== */
+.small-text {
+    font-size: 12px;
+    color: #6B7280;
+}
+
+
+.check-out-summary {
+    border: 1px solid #E5E7EB;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    background: white;
+}
+
+.check-out-summary h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #141718;
+    margin-bottom: 20px;
+}
+
+.check-out-summary-item,
+.check-out-summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.check-out-summary-total strong {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.check-out-btn {
+    width: 100%;
+    background: #141718;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.check-out-btn:hover {
+    background: #000000;
+}
+
