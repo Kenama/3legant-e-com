@@ -59,70 +59,35 @@ function updateQuantity(index, change) {
 
 function updateTotal() {
   const totalElement = document.querySelector(".total-value");
-  const subtotalElement = document.querySelector(".summary-item .summary-value");
+  const subtotalElement = document.querySelector(
+    ".summary-item .summary-value"
+  );
 
-  let subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  let subtotal = cart.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
   subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
 
-  let shippingCost = document.querySelector('input[name="shipping"]:checked')?.nextElementSibling.nextElementSibling.textContent || "$0.00";
+  let shippingCost =
+    document.querySelector('input[name="shipping"]:checked')?.nextElementSibling
+      .nextElementSibling.textContent || "$0.00";
   let shippingPrice = parseFloat(shippingCost.replace("$", ""));
 
   totalElement.textContent = `$${(subtotal + shippingPrice).toFixed(2)}`;
 }
 
 // Add products initially
-addProduct("Tray Table", 38.00, "/src/assets/img/lamp.png");
+addProduct("Tray Table", 38.0, "/src/assets/img/lamp.png");
 addProduct("Wooden Chair", 49.99, "/src/assets/img/table.png");
-
 
 document.querySelectorAll('input[name="shipping"]').forEach((radio) => {
   radio.addEventListener("change", updateTotal);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //                                  |NOT FOR NOW|
 //=======================================================================================================================
 //                                 |FUTURE UPDATE|
-
 
 // document.addEventListener("DOMContentLoaded", () => {
 //     const cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -172,7 +137,7 @@ document.querySelectorAll('input[name="shipping"]').forEach((radio) => {
 //     // Add item to cart (on any page)
 //     function addToCart(product) {
 //         const existingItem = cart.find(item => item.id === product.id);
-        
+
 //         if (existingItem) {
 //             existingItem.quantity++;
 //         } else {

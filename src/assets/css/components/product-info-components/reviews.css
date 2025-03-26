@@ -7,11 +7,11 @@
 }
 
 .reviews-section h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  color: #23262F;
+  color: #23262f;
 }
 
 .reviews {
@@ -34,7 +34,7 @@
 }
 
 .review-count {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #141718;
@@ -48,23 +48,23 @@
 }
 
 .write-review span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .write-review strong {
   font-weight: 600;
-  color: #23262F;
+  color: #23262f;
 }
 
 .feedback-form {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #FEFEFE;
-  border: 2px solid #E8ECEF;
+  background: #fefefe;
+  border: 2px solid #e8ecef;
   border-radius: 16px;
   padding: 16px 24px;
   width: 100%;
@@ -73,9 +73,9 @@
 .feedback-form input {
   border: none;
   background: transparent;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
-  color: #6C7275;
+  color: #6c7275;
   width: 100%;
 }
 
