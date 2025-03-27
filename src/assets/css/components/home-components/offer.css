@@ -6,6 +6,11 @@
   background: var(--bg-neutral);
 }
 
+/* Offer image */
+.offer-img {
+  height: 367px;
+}
+
 /* Offer slogan */
 .offer-slogan {
   font-family: var(--font-main);

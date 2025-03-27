@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3legant | Home</title>
     <!-- Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/src/assets/css/base/styles.css" />
-    <link rel="shortcut icon" href="/src/assets/img/icon-shopping-cart.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/src/assets/img/icon-shopping-cart.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Wrapper -->
@@ -36,8 +44,72 @@
           <span class="counter" id="shoping-cart-counter">2</span>
         </a>
       </div>
-      <!-- Slider -->
-      <div class="slider"></div>
+      <!-- Carousel -->
+      <div id="carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/src/assets/img/image-carousel-1.jpg"
+              class="d-block w-100"
+              alt="image-carousel#1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/src/assets/img/image-carousel-1.jpg"
+              class="d-block w-100"
+              alt="image-carousel#2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/src/assets/img/image-carousel-1.jpg"
+              class="d-block w-100"
+              alt="image-carousel#3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <!-- Quote -->
       <div class="quote">
         <!-- Header -->
@@ -62,6 +134,7 @@
       <div class="cards" id="cards-container"></div>
       <!-- Offer -->
       <div class="offer">
+        <!-- Offer image -->
         <img src="/src/assets/img/image-offer.jpg" alt="" class="offer-img" />
         <!-- Offer content -->
         <div class="offer-content">
@@ -146,5 +219,6 @@
     </div>
     <!-- Script -->
     <script src="/src/assets/js/index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
