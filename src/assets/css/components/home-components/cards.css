@@ -15,15 +15,19 @@
   font-family: var(--font-main);
   font-size: var(--fs-p-sec);
   line-height: var(--lh-p-sec);
+  border-radius: 0;
+  border: none;
 }
 
 /* Card icon */
 .card-icon {
+  width: 48px;
   margin-bottom: 16px;
 }
 
 /* Card header */
 .card-title {
+  font-size: 14px !important;
   font-family: "Inter", sans-serif;
   font-weight: var(--fw-bold);
   color: var(--color-text);
@@ -32,4 +36,5 @@
 /* Card text */
 .card-text {
   color: var(--color-acc);
+  font-size: var(--fs-p-sec);
 }

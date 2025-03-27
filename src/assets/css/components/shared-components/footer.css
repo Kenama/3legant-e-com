@@ -63,7 +63,7 @@ footer nav li:last-child {
 /* Info */
 .info {
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
   font-weight: var(--fw-bold);
   color: #fefefe;
   gap: 28px;
