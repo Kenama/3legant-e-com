@@ -1,0 +1,54 @@
+/* Toolbar */
+
+.toolbar {
+  font-family: var(--font-main);
+  padding-inline: var(--padding-horizontal);
+  margin-bottom: 64px;
+  color: var(--color-text);
+  font-weight: var(--fw-bold);
+}
+.toolbar-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toolbar-block:first-of-type {
+  padding-block: 8px;
+  border-top: 2px solid #e8ecef;
+  border-bottom: 2px solid #e8ecef;
+  margin-bottom: 16px;
+}
+
+/* Filter */
+.filter {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  color: var(--color-text);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p);
+}
+
+/* Grid */
+.grid img {
+  height: 24px;
+  width: 24px;
+}
+.grid button {
+  padding: 8px 11px;
+  border: 2px solid #e8ecef;
+}
+.grid button:hover {
+  background: var(--bg-neutral);
+}
+.grid button:hover img {
+  filter: brightness(0);
+}
+
+/* Active */
+.active {
+  background: var(--bg-neutral);
+}
+.active img {
+  filter: brightness(0);
+}

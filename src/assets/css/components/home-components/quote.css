@@ -7,8 +7,6 @@
 
 /* Header */
 .quote h1 {
-  line-height: var(--lh-h1);
-  letter-spacing: -0.01em;
   margin-bottom: 16px;
 }
 

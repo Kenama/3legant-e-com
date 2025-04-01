@@ -67,6 +67,7 @@
 
   /* Margin | margin : purpose */
   --margin-vertical: 40px;
+  --margin-horizontal: 32px;
 }
 
 /* General styles */
@@ -86,7 +87,7 @@
 
 /* Highlight */
 .highlight {
-  color: var(--color-acc);
+  color: var(--color-acc) !important;
 }
 
 /* Block header */
