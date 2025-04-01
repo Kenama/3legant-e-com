@@ -1,0 +1,30 @@
+/* Page header */
+
+.page-header {
+  text-align: center;
+  background: url(/src/assets/img/catalog-header.jpg) no-repeat center;
+  font-family: var(--font-main);
+  padding: 78px 20px;
+  margin-inline: var(--margin-horizontal);
+  margin-bottom: 32px;
+}
+.page-header h1 {
+  margin-bottom: 16px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-acc);
+  font-size: var(--fs-p-sec);
+  line-height: 171%;
+  margin-bottom: 16px;
+}
+.breadcrumbs img {
+  height: 9px;
+}
+.breadcrumbs-current {
+  color: var(--color-text);
+}
