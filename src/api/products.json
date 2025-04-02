@@ -1,0 +1,9 @@
+{
+  "Loveseat Sofa": {
+    "name": "Loveseat Sofa",
+    "price": 400,
+    "discount": 20,
+    "rating": 5,
+    "imagePath": "/src/assets/img/image-loveseat-sofa.png"
+  }
+}

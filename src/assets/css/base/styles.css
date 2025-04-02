@@ -17,33 +17,10 @@
 @import url(/src/assets/css/components/shared-components/form.css);
 @import url(/src/assets/css/components/shared-components/footer.css);
 
-/* Home page partials */
-@import url(/src/assets/css/components/home-components/quote.css);
-@import url(/src/assets/css/components/home-components/categories.css);
-@import url(/src/assets/css/components/home-components/new-arrivals.css);
-@import url(/src/assets/css/components/home-components/cards.css);
-@import url(/src/assets/css/components/home-components/offer.css);
-@import url(/src/assets/css/components/home-components/articles.css);
-
-/*product-info page partials */
-@import url(/src/assets/css/components/product-info-components/comments.css);
-@import url(/src/assets/css/components/product-info-components/price.css);
-@import url(/src/assets/css/components/product-info-components/product-info.css);
-@import url(/src/assets/css/components/product-info-components/rating.css);
-@import url(/src/assets/css/components/product-info-components/reviews.css);
-@import url(/src/assets/css/components/product-info-components/tabs.css);
-@import url(/src/assets/css/components/product-info-components/timer.css);
-
-/* cart page partials */
-@import url(/src/assets/css/components/cart-components/cart-header.css);
-@import url(/src/assets/css/components/cart-components/cart.css);
-@import url(/src/assets/css/components/cart-components/summary.css);
-
 /* check out page partials */
 @import url(/src/assets/css/components/check-out-components/check-out-header.css);
 @import url(/src/assets/css/components/check-out-components/check-out-form.css);
 @import url(/src/assets/css/components/check-out-components/check-out-summary.css);
-
 
 /* Varriables */
 /* ---------------------------------------------------------- */
@@ -90,43 +67,11 @@
 
   /* Margin | margin : purpose */
   --margin-vertical: 40px;
+  --margin-horizontal: 32px;
 }
 
 /* General styles */
 /* ---------------------------------------------------------- */
-
-h1,
-h2,
-h3 {
-  font-family: var(--font-sec);
-  font-weight: var(--fw-semibold);
-  color: var(--color-text);
-}
-
-h1 {
-  font-size: var(--fs-h1);
-  letter-spacing: -0.01em;
-  line-height: var(--lh-h1);
-}
-
-h2 {
-  font-size: var(--fs-h2);
-  line-height: var(--lh-h2);
-  letter-spacing: -0.02em;
-}
-
-h3 {
-  font-size: var(--fs-h3);
-  line-height: var(--lh-h3);
-  letter-spacing: -0.02em;
-}
-
-p {
-  font-family: var(--font-main);
-  font-size: var(--fs-p);
-  line-height: var(--lh-p);
-  color: var(--color-text);
-}
 
 /* Wrapper */
 .wrapper {
@@ -142,7 +87,7 @@ p {
 
 /* Highlight */
 .highlight {
-  color: var(--color-acc);
+  color: var(--color-acc) !important;
 }
 
 /* Block header */

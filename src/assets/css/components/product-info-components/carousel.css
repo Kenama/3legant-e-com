@@ -1,0 +1,11 @@
+/* Carousel */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background: url(/src/assets/img/icon-arrow.svg) #fff no-repeat center;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon {
+  transform: rotate(180deg);
+}

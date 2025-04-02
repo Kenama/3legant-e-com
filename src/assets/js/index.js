@@ -1,5 +1,3 @@
-
-
 // CATEGORIES
 
 // data
@@ -47,7 +45,7 @@ categories.forEach((category) => {
   link.classList.add("underline-link");
 
   const arrow = document.createElement("img");
-  arrow.src = "/src/assets/img/arrow.svg";
+  arrow.src = "/src/assets/img/icon-arrow.svg";
   link.appendChild(arrow);
 
   link.href = category.link;
@@ -306,7 +304,7 @@ articles.forEach((article) => {
   link.classList.add("underline-link");
 
   const arrow = document.createElement("img");
-  arrow.src = "/src/assets/img/arrow.svg";
+  arrow.src = "/src/assets/img/icon-arrow.svg";
   link.appendChild(arrow);
 
   div.appendChild(link);
