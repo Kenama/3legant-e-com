@@ -4,6 +4,31 @@
     "price": 400,
     "discount": 20,
     "rating": 5,
-    "imagePath": "/src/assets/img/image-loveseat-sofa.png"
+    "imagePath": "/src/assets/img",
+    "quantity": 2
+  },
+  "Black Table": {
+    "name": "Black Table",
+    "price": 400,
+    "discount": 10,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 2
+  },
+  "Red Table": {
+    "name": "Red Table",
+    "price": 400,
+    "discount": 10,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 2
+  },
+  "Lamp": {
+    "name": "Lamp",
+    "price": 400,
+    "discount": 0,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 1
   }
 }
