@@ -5,7 +5,7 @@
     "discount": 20,
     "rating": 5,
     "imagePath": "/src/assets/img",
-    "quantity": 2
+    "quantity": 0
   },
   "Black Table": {
     "name": "Black Table",
@@ -13,7 +13,7 @@
     "discount": 10,
     "rating": 5,
     "imagePath": "/src/assets/img",
-    "quantity": 2
+    "quantity": 0
   },
   "Red Table": {
     "name": "Red Table",
@@ -21,7 +21,7 @@
     "discount": 10,
     "rating": 5,
     "imagePath": "/src/assets/img",
-    "quantity": 2
+    "quantity": 0
   },
   "Lamp": {
     "name": "Lamp",
@@ -29,6 +29,6 @@
     "discount": 0,
     "rating": 5,
     "imagePath": "/src/assets/img",
-    "quantity": 1
+    "quantity": 0
   }
 }
