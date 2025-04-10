@@ -1,21 +1,21 @@
 .price {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .curr-price {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    color: #141718;
-    margin-right: 10px;
-  }
-  
-  .orig-price {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #6c7275;
-    text-decoration: line-through;
-  }
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.curr-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h3);
+  color: var(--color-text);
+  margin-right: 10px;
+}
+
+.orig-price {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-p-sec);
+  color: var(--color-lightgray);
+  text-decoration: line-through;
+}

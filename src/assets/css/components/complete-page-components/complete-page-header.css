@@ -1,6 +1,6 @@
 .process {
   display: flex;
-  padding: 16px 0;
+  padding: var(--padding-horizontal) 0;
   border-bottom: 2px solid #141718;
   width: 100%;
   max-width: 375px;
@@ -28,31 +28,31 @@
   width: 50px;
   height: 38px;
   border-radius: 50%;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: var(--fs-p);
+  font-weight: var(--fw-bold);
   font-family: "Inter", sans-serif;
-  color: white;
+  color: var(--bg-form);
 }
 
 .frame-74.active {
-  background: #2b2f3a;
+  background: var(--color-gray);
 }
 
 .frame-74.active span {
-  color: #ffffffde;
+  color: var(--bg-form);
 }
 .frame-74.inactive {
-  background: #b1b5c4;
+  background: var(--bg-frames);
 }
 
 .step-label {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: var(--fs-p);
+  font-weight: var(--fw-bold);
   color: #23262f;
 }
 
 .step-label.inactive {
-  color: #b1b5c4;
+  color: var(--bg-frames);
 }
 
 .process .frame-76:last-child {
@@ -66,5 +66,5 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: #141718;
+  background: var(--color-text);
 }

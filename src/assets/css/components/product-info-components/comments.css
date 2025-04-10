@@ -1,119 +1,118 @@
 #comments-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    gap: 40px;
-    width: 375px;
-  }
-  
-  .user {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0px 16px;
-    gap: 16px;
-    width: 375px;
-    border-bottom: 1px solid #E8ECEF;
-  }
-  
-  .avatar_placeholder {
-    width: 72px;
-    height: 72px;
-    border-radius: 48px;
-    background-size: cover;
-    background-position: center;
-    background-color: #F3F5F7;
-  }
-  
-  .name-stars {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    gap: 8px;
-    width: 199px;
-  }
-  
-  .name {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #141718;
-  }
-  
-  .star-rating {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-  }
-  
-  .star-icon {
-    width: 16px;
-    height: 16px;
-  }
-  
-  .feedback {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #353945;
-    width: 311px;
-  }
-  
-  .comment-actions {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 16px;
-    width: 311px;
-  }
-  
-  .comment-time {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: #6C7275;
-  }
-  
-  .action-button {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    color: #23262F;
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
-  }
-  
-  .action-button:hover {
-    color: #141718;
-  }
-  
-  .load-more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6px 40px;
-    gap: 8px;
-    width: 158px;
-    height: 40px;
-    border: 1px solid #141718;
-    border-radius: 80px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #141718;
-    cursor: pointer;
-    background: transparent;
-    transition: all 0.3s ease-in-out;
-    margin: 20px auto;
-  }
-  
-  .load-more:hover {
-    background: #141718;
-    color: white;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-horizontal) var(--padding-vertical);
+  gap: 40px;
+  width: 375px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 16px;
+  gap: 16px;
+  width: 375px;
+  border-bottom: 1px solid #e8ecef;
+}
+
+.avatar_placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 48px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bg-frames);
+}
+
+.name-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 8px;
+  width: 199px;
+}
+
+.name {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h4);
+  color: var(--color-text);
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.feedback {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-semibold);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-gray);
+  width: 311px;
+}
+
+.comment-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  width: 311px;
+}
+
+.comment-time {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-acc);
+  color: #6c7275;
+}
+
+.action-button {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-acc);
+  color: var(--bg-black);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.action-button:hover {
+  color: var(--color-text);
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 40px;
+  gap: 8px;
+  width: 158px;
+  height: 40px;
+  border: 1px solid #141718;
+  border-radius: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-p);
+  color: var(--color-text);
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin: 20px auto;
+}
+
+.load-more:hover {
+  background: var(--color-text);
+  color: var(--bg-form);
+}

@@ -12,13 +12,13 @@
   align-items: center;
   width: 100%;
   padding-bottom: 8px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-family: var(--font-main);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h5);
   line-height: 32px;
   letter-spacing: -0.4px;
-  color: #6C7275;
-  border-bottom: 1px solid #6C7275;
+  color: var(--color-gray);
+  border-bottom: 1px solid #6c7275;
   cursor: pointer;
   position: relative;
   transition: color 0.3s ease-in-out;
@@ -31,7 +31,7 @@
 }
 
 .tabs p.active {
-  color: #141718;
+  color: var(--color-text);
   border-bottom: 1px solid #141718;
 }
 

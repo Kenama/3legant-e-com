@@ -11,7 +11,7 @@
   gap: 8px;
   width: 375px;
   height: 166px;
-  border-bottom: 1px solid #E8ECEF;
+  border-bottom: 1px solid #e8ecef;
 }
 
 /* Timer */
@@ -39,7 +39,7 @@
   height: 60px;
   left: 0;
   top: 0;
-  background: #F3F5F7;
+  background: #f3f5f7;
 }
 
 .timer-value {
@@ -49,13 +49,13 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 34px;
+  font-family: var(--font-sec);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-h2);
   line-height: 38px;
   text-align: center;
   letter-spacing: -0.6px;
-  color: #141718;
+  color: var(--color-text);
 }
 
 .timer-label {
@@ -65,22 +65,22 @@
   left: 50%;
   top: 60px;
   transform: translateX(-50%);
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
+  font-family: var(--font-main);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-acc);
   line-height: 20px;
   text-align: center;
-  color: #6C7275;
+  color: var(--color-lightgray);
 }
 
 /* Offer expires in text */
 .offer-expiry {
   width: 360px;
   height: 26px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-family: var(--font-main);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-p);
   line-height: 26px;
-  color: #343839;
+  color: var(--color-black);
   text-align: left;
 }

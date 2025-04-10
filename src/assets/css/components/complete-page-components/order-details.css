@@ -1,12 +1,12 @@
 .order-details {
   width: 100%;
   max-width: 375px;
-  background: white;
-  padding: 32px 24px;
+  background: var(--bg-form);
+  padding: var(--padding-horizontal) var(--padding-vertical);
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px #0000001a;
   margin-top: 15px;
-  margin-bottom: 70px;
+  margin-bottom: 5px;
   box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@
   width: 60px;
   height: 60px;
   flex-shrink: 0;
-  border: 1px solid #ddd;
+  border: 1px solid var(--bg-neutral);
   border-radius: 8px;
 }
 
@@ -37,10 +37,10 @@
   position: absolute;
   top: -6px;
   right: -6px;
-  background-color: black;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
+  background-color: var(--bg-black);
+  color: var(--bg-form);
+  font-size: var(--fs-acc);
+  font-weight: var(--fw-bold);
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -63,29 +63,29 @@
 }
 
 .label {
-  color: #777;
-  font-size: 14px;
+  color: var(--color-lightgray);
+  font-size: var(--fs-p-sec);
 }
 
 .value {
-  color: #111;
-  font-weight: 600;
-  font-size: 14px;
+  color: var(--color-text);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p-sec);
 }
 
 .purchase-history-btn {
-  background-color: #111;
-  color: #fff;
+  background-color: var(--color-text);
+  color: var(--bg-form);
   padding: 12px 0;
   border: none;
   width: 100%;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: var(--fs-p-sec);
+  font-weight: var(--fw-bold);
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .purchase-history-btn:hover {
-  background-color: #000;
+  background-color: var(--bg-black);
 }

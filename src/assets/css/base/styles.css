@@ -25,8 +25,11 @@
   --bg-black: #232627;
   --bg-neutral: #f3f5f7;
   --bg-discount: #38cb89;
+  --bg-form: #ffffff;
+  --bg-frames: #b1b5c4;
   --color-text: #141718;
   --color-gray: #343839;
+  --color-lightgray: #777;
   --color-blue: #377dff;
   --color-acc: #6c7275;
 
@@ -39,6 +42,8 @@
   --fs-h1: 40px;
   --fs-h2: 34px;
   --fs-h3: 28px;
+  --fs-h4: 20px;
+  --fs-h5: 18px;
   --fs-p: 16px;
   --fs-p-sec: 14px;
   --fs-acc: 12px;
