@@ -1,15 +1,25 @@
-{
-  "Loveseat Sofa": {
+[
+  {
     "name": "Loveseat Sofa",
     "price": 400,
     "decription": "",
     "category": "Living room",
     "discount": 20,
     "rating": 5,
-    "imagePath": "/src/assets/img",
+    "imagePath": "/src/assets/img/image-loveseat-sofa.png",
     "quantity": 0
   },
-  "Black Table": {
+  {
+    "name": "Luxury sofa",
+    "price": 299,
+    "decription": "",
+    "category": "Living room",
+    "discount": 20,
+    "rating": 5,
+    "imagePath": "/src/assets/img/img-luxury-sofa.jpg",
+    "quantity": 0
+  },
+  {
     "name": "Black Table",
     "price": 400,
     "discount": 10,
@@ -17,7 +27,7 @@
     "imagePath": "/src/assets/img",
     "quantity": 0
   },
-  "Red Table": {
+  {
     "name": "Red Table",
     "price": 400,
     "discount": 10,
@@ -25,7 +35,7 @@
     "imagePath": "/src/assets/img",
     "quantity": 0
   },
-  "Lamp": {
+  {
     "name": "Lamp",
     "price": 400,
     "discount": 0,
@@ -33,4 +43,4 @@
     "imagePath": "/src/assets/img",
     "quantity": 0
   }
-}
+]
