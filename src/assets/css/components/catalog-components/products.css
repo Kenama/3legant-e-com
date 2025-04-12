@@ -7,11 +7,17 @@
 /* Products container */
 .products-container {
   margin-inline: var(--margin-horizontal);
+  margin-bottom: 32px;
+}
+
+.products-grid-double-column {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 7px;
-  margin-bottom: 32px;
+}
+.products-grid-single-column {
+  display: block;
 }
 
 /* Product image */
