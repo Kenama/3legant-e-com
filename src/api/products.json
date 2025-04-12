@@ -6,6 +6,31 @@
     "category": "Living room",
     "discount": 20,
     "rating": 5,
-    "imagePath": "/src/assets/img/image-loveseat-sofa.png"
+    "imagePath": "/src/assets/img",
+    "quantity": 0
+  },
+  "Black Table": {
+    "name": "Black Table",
+    "price": 400,
+    "discount": 10,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 0
+  },
+  "Red Table": {
+    "name": "Red Table",
+    "price": 400,
+    "discount": 10,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 0
+  },
+  "Lamp": {
+    "name": "Lamp",
+    "price": 400,
+    "discount": 0,
+    "rating": 5,
+    "imagePath": "/src/assets/img",
+    "quantity": 0
   }
 }

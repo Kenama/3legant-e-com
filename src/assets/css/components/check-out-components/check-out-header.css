@@ -1,3 +1,19 @@
+.process{
+    display: flex;
+    padding: 16px 0;
+    border-bottom: 2px solid #141718;
+    width: 100%;
+    max-width: 375px;
+}
+
+.back-btn{
+    display: flex;
+}
+
+.back-btn img{
+    transform: rotate(180deg);
+}
+
 .frame-76 {
     display: flex;
     align-items: center;
@@ -27,6 +43,12 @@ color: #ffffffde;
 }
 .frame-74.inactive {
 background: #b1b5c4;
+}
+
+.step-label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #23262f;
 }
 
 .step-label.inactive {

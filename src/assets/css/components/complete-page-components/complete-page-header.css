@@ -1,26 +1,27 @@
 .process {
   display: flex;
-  padding: 16px 0;
+  padding: var(--padding-horizontal) 0;
   border-bottom: 2px solid #141718;
   width: 100%;
-  max-width: 600px;
+  max-width: 375px;
 }
 
 .back-btn {
   display: flex;
 }
+
 .back-btn img {
   transform: rotate(180deg);
 }
 
-.frame-75 {
+.frame-76 {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 /* ---- STEP CIRCLE ---- */
-.frame-73 {
+.frame-74 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,14 +34,14 @@
   color: var(--bg-form);
 }
 
-.frame-73.active {
+.frame-74.active {
   background: var(--color-gray);
 }
 
-.frame-73.active span {
+.frame-74.active span {
   color: var(--bg-form);
 }
-.frame-73.inactive {
+.frame-74.inactive {
   background: var(--bg-frames);
 }
 
@@ -54,11 +55,11 @@
   color: var(--bg-frames);
 }
 
-.process .frame-75:first-child {
+.process .frame-76:last-child {
   position: relative;
 }
 
-.process .frame-75:first-child::after {
+.process .frame-76:last-child::after {
   content: "";
   position: absolute;
   bottom: -10px;
