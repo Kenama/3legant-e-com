@@ -5,36 +5,35 @@
   align-items: flex-start;
   gap: 16px;
   width: 100%;
-  max-width: 311px;
-  padding: 24px 0;
+  max-width: 375px;
 }
 
 /* Product Measurements */
 .product-info p:first-child {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: var(--font-main);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p-sec);
   line-height: 26px;
-  color: #6C7275;
+  color: var(--color-lightgray);
   margin-bottom: 4px;
 }
 
 .product-info p:nth-child(2) {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: var(--font-main);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h4);
   line-height: 32px;
-  color: #000;
+  color: var(--color-text);
 }
 
 /* Choose Color Section */
 .product-info p:nth-child(3) {
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #6C7275;
+  font-family: var(--font-main);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p);
+  color: var(--color-lightgray);
   gap: 4px;
 }
 
@@ -45,10 +44,10 @@
 
 /* Selected Color */
 .product-info p:nth-child(4) {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #000;
+  font-family: var(--font-main);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-h4);
+  color: var(--color-text);
 }
 
 /* Color Picker (Swatches) */
@@ -72,9 +71,6 @@
   transform: scale(1.05);
 }
 
-
-
-
 .product-loop {
   display: flex;
   flex-direction: column;
@@ -89,15 +85,15 @@
 }
 
 .product-loop p:first-child {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: #6C7275;
+  font-family: var(--font-main);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p-sec);
+  color: var(--color-lightgray);
 }
 
 .product-loop p:last-child {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #000;
+  font-family: var(--font-main);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-p);
+  color: var(--color-text);
 }

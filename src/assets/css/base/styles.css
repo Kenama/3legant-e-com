@@ -17,11 +17,6 @@
 @import url(/src/assets/css/components/shared-components/form.css);
 @import url(/src/assets/css/components/shared-components/footer.css);
 
-/* check out page partials */
-@import url(/src/assets/css/components/check-out-components/check-out-header.css);
-@import url(/src/assets/css/components/check-out-components/check-out-form.css);
-@import url(/src/assets/css/components/check-out-components/check-out-summary.css);
-
 /* Varriables */
 /* ---------------------------------------------------------- */
 
@@ -30,8 +25,11 @@
   --bg-black: #232627;
   --bg-neutral: #f3f5f7;
   --bg-discount: #38cb89;
+  --bg-form: #ffffff;
+  --bg-frames: #b1b5c4;
   --color-text: #141718;
   --color-gray: #343839;
+  --color-lightgray: #777;
   --color-blue: #377dff;
   --color-acc: #6c7275;
 
@@ -44,6 +42,8 @@
   --fs-h1: 40px;
   --fs-h2: 34px;
   --fs-h3: 28px;
+  --fs-h4: 20px;
+  --fs-h5: 18px;
   --fs-p: 16px;
   --fs-p-sec: 14px;
   --fs-acc: 12px;
@@ -112,4 +112,26 @@
   font-size: var(--fs-p-sec);
   line-height: 171%;
   color: var(--color-text);
+}
+
+/* button transperant */
+.button-transperant {
+  display: table;
+  font-family: var(--font-main);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-p);
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  border-radius: 80px;
+  padding: 6px 40px;
+  margin: 0 auto;
+  transition: .2s;
+}
+.button-transperant:hover {
+  color: #fff;
+  background: var(--color-text);
 }

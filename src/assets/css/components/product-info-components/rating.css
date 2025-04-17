@@ -1,16 +1,16 @@
 .rating {
-    display: flex;
-    align-items: center;
-  }
-  
-  .rating img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-  }
-  
-  .rating p {
-    margin-left: 10px;
-    font-family: 'Inter', sans-serif;
-    color: #23262f;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.rating p {
+  margin-left: 10px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
