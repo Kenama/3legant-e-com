@@ -1,62 +1,55 @@
-/* New arrivals */
+/* Products */
 
-.new-arrivals {
-  margin-bottom: 32px;
-}
-.new-arrivals .block-header {
-  padding-inline: var(--padding-horizontal);
+.products {
+  margin-bottom: 80px;
 }
 
 /* Products container */
 .products-container {
-  width: 311px;
-  overflow-x: auto;
-  white-space: nowrap;
-  margin: 0 auto;
-  padding-bottom: 40px;
-  margin-bottom: var(--margin-vertical);
+  margin-inline: var(--margin-horizontal);
+  margin-bottom: 32px;
 }
 
-/* Product */
-.product {
-  display: inline-block;
-  margin-right: 16px;
+.products-grid-double-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+}
+.products-grid-single-column {
+  display: block;
 }
 
 /* Product image */
 .product-image {
-  width: 231px;
-  height: 308px;
-  margin-bottom: 12px;
+  width: 152px;
+  height: 203px;
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 16px;
-  background: no-repeat center;
+  margin-bottom: 12px;
 }
 
 /* Product top */
-.product-top {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Product top left*/
 .product-top-left {
   display: inline-flex;
   flex-direction: column;
+  gap: 8px;
 }
 .product-top-left span {
-  padding: 4px 14px;
   font-family: var(--font-main);
   font-weight: var(--fw-bolder);
   font-size: var(--fs-p);
   text-transform: uppercase;
   border-radius: 4px;
+  padding: 4px 14px;
+  text-transform: uppercase;
 }
 
 /* Sign */
 .sign {
   color: var(--color-text);
   background: #fff;
-  margin-bottom: 8px;
 }
 
 /* Discount */
@@ -65,18 +58,7 @@
   background: var(--bg-discount);
 }
 
-/* Wishlist button */
-.wishlist-button {
-  width: 26px;
-  height: 26px;
-  background: no-repeat center;
-  background-color: #fff;
-  border-radius: 32px;
-}
-/* .wishlist-button:hover {
-} */
-
-/* Ratting */
+/* Rating */
 .rating {
   display: flex;
   gap: 2px;
@@ -87,16 +69,18 @@
 .product-name {
   font-family: var(--font-main);
   font-weight: var(--fw-bold);
-  font-size: var(--fs-p);
-  line-height: var(--lh-p);
+  font-size: var(--fs-p-sec);
+
+  /* line-height: 22px; */
+  line-height: var(--lh-p-sec);
   color: var(--color-text);
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
 }
 
 /* Price */
 .price {
   font-family: var(--font-main);
-  font-size: var(--fs-p-sec);
+  font-size: var(--fs-acc);
   line-height: var(--lh-p-sec);
 }
 

@@ -63,11 +63,17 @@
           </button>
           <!-- Grid -->
           <div class="grid" id="grid-buttons">
-            <button class="active">
-              <img src="/src/assets/img/icon-grid-vertical.svg" alt="" />
+            <button class="active" id="button-grid-double-column">
+              <img
+                src="/src/assets/img/icon-grid-double-column.svg"
+                alt="vertical-grid"
+              />
             </button>
-            <button>
-              <img src="/src/assets/img/icon-grid-horizontal.svg" alt="" />
+            <button id="button-grid-single-column">
+              <img
+                src="/src/assets/img/icon-grid-single-column.svg"
+                alt="horizontal-grid"
+              />
             </button>
           </div>
         </div>
@@ -78,7 +84,15 @@
         </div>
       </div>
       <!-- Products -->
-      <div class="products-container" id="products-container"></div>
+      <div class="products">
+        <div
+          class="products-container products-grid-double-column"
+          id="products-container"
+        >
+          Loading...
+        </div>
+        <button class="button-transperant">Show more</button>
+      </div>
       <!-- Form -->
       <div class="form">
         <!-- Form header -->
@@ -135,7 +149,7 @@
         </div>
       </footer>
       <!-- Scripts -->
-      <script src="/src/assets/js/catalog.js"></script>
+      <script src="/src/assets/js/catalog.js" type="module"></script>
     </div>
   </body>
 </html>
